@@ -1,5 +1,19 @@
+import std.print;
+import custom.fun;
+import ext.sha256.encode;
 
 
-fn main () void {
+@ add (i32: num1, i32: num2) i32 {
+  num1 + num2
+}
+
+module: std {
+  pub @ print (str: fmt) void;
+}
+
+@ main () void {
+  
+  var new = global_variable;
+  
   print("Hello World");
 }
